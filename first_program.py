@@ -11,5 +11,5 @@ for i in range(5):
         print("This minute seems a little odd.")
     else:
         print("Not an odd minute.")
-    sec = randint(1, 60)
-    time.sleep(sec)
+
+    time.sleep(randint(1, 60))
